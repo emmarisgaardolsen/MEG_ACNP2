@@ -4,6 +4,26 @@ The current repository contains the code used for portfolio 3 (MEG Acquisition -
 
 The project attempts to train a Gaussian Naive Bayes (GNB) machine learning classifier to discern between positive and negative self-talk within the left inferior frontal gyrus, a brain region believed to be involved in several language abilities, including inner speech. 
 
+## This repository contains the following
+
+```
+
+├── README.md
+├── setup.sh  
+├── env_to_ipynb_kernel.sh 
+├── requirements.txt       
+├── code                      <--- code for replicating analysis
+    ├── analysis   
+      ├── analysis_funcs.py   <--- functions used in analysis
+      ├── run_and_visualise_analysis.py <-- script for running analysis and saving figures
+      ├── figures.            
+        ├── figures outputted from running `analysis_funcs.py`
+    ├── preprocessing        
+      ├── preproc_funcs.py    <--- functions used for preprocessing
+      ├── run_preproc.py.     <--- code for running preprocessing
+
+```
+
 ## Study group members
 Members of study group 2 are: 
 
